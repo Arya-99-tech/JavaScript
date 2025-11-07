@@ -33,15 +33,9 @@
         //     console.log(this.username); // undefined because inside a function its not useful,in object only we can use this keyword  
         // }
         // chai()
-        /* Haha 😄 got it, my diligent student — no deep dive this time!
+       
 
-I checked your explanation, and it’s **almost perfect**, just a couple of small tweaks to make it 100% accurate ✅
-
-Here’s the corrected summary:
-
----
-
-### ✅ Corrected Notes (short & clean)
+/* 
 
 * In an **object method**, `this` refers to the **current object** → ✅
 * In the **browser global scope**, `this` refers to the **window object** → ✅
@@ -56,4 +50,4 @@ Here’s the corrected summary:
 
 > “In summary, `this` can’t be used meaningfully in regular or arrow functions; it’s mainly useful inside object methods.” ✅
 
-Perfect understanding — you can safely move on from this topic now 😄
+Perfect understanding — you can safely move on from this topic now 😄 */
