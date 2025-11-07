@@ -46,8 +46,6 @@
 
 ---
 
-⭐ Final line (yours, slightly polished):
 
-> “In summary, `this` can’t be used meaningfully in regular or arrow functions; it’s mainly useful inside object methods.” ✅
 
-Perfect understanding — you can safely move on from this topic now 😄 */
+> “In summary, `this` can’t be used meaningfully in regular or arrow functions; it’s mainly useful inside object methods.” 
