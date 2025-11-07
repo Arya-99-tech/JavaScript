@@ -1,4 +1,4 @@
-//   <script>
+
 // // ### ✅ **Level 1: Basics**
 
 // // 1. What is an object in JavaScript?
@@ -147,4 +147,3 @@
 // // ```
 
 
-//     </script>

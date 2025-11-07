@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+   
+//  ### ✅ **1. How do you create a Date object in JavaScript?**
+
+let now=new Date();
+console.log(now);
+let specific=new Date("2025/10/3");
+console.log(specific);
+let withValues=new Date(2025,10,3);
+console.log(withValues)
+
+// ### ✅ **2. How do you get the current date and time?**
+let cdt=new Date();
+console.log(cdt);
+
+// ### ✅ **3. How do you get year, month, day from a Date object?**
+let d=new Date();
+console.log(d.getFullYear());
+console.log(d.getMonth());
+console.log(d.getDate());
+
+// ### ✅ **4. Why does `getMonth()` start from 0?**
+/* javascript month start from index 0- january and 11 decemebr
+zero based indexing concepts */
+
+// ### ✅ **5. How do you get hours, minutes, and seconds?**
+let hmt=new Date();
+console.log(hmt.getHours());
+console.log(hmt.getMinutes());
+console.log(hmt.getSeconds());
+
+// ### ✅ **6. How do you set a specific date or time?**
+let sd=new Date();
+sd.setFullYear(2025);
+sd.setMonth(10);
+sd.setDate(3);
+console.log(sd);
+//✅ If you want both timestamp & date:
+let sj=new Date();
+console.log(sj.setFullYear(2026),sj); // 1793696447351 Mon Nov 03 2025 14:30:47 GMT+0530 (India Standard Time)
+
+
+
+// ### ✅ **7. How do you get the timestamp (milliseconds since Jan 1, 1970)?**
+
+console.log(Date.now());
+console.log(new Date().getTime());
+
+
+// ### ✅ **8. How do you convert a Date to a readable string?**
+console.log(new Date().toString());
+console.log(new Date().toDateString());
+console.log(new Date().toLocaleString());
+console.log(new Date().toLocaleDateString());
+
+
+// ### ✅ **9. How do you compare two dates?**
+let d1=new Date('2023-01-01');
+let d2=new Date('2024-01-01');
+console.log(d1>d2);
+
+// ### ✅ **10. How do you format date/time in your local format?**
+
+console.log(new Date().toLocaleDateString());
+console.log(new Date().toLocaleTimeString());
+
+
+
+// ### ⭐ Bonus Tip
+
+// To get **UTC time** 
+console.log(new Date().getUTCHours());
+
+
+            
+    </script>
+</body>
+</html>
